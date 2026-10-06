@@ -17,10 +17,10 @@
 2. (Опционально) Попробуйте создать свой модуль и поработать с командой go: https://go.dev/doc/tutorial/getting-started
 3. (Неактуально для GitHub Classroom) Склонируйте этот репозиторий 
    ```bash
-   git clone git@github.com:tcarzverey/course-go-python.git # если клонировать осноной репозиторий
+   git clone git@github.com:tcarzverey/course-go-python-2026.git # если клонировать осноной репозиторий
    # или свой форк
-   git clone git@github.com:<youraccount>/course-go-python.git
-   cd course-go-python
+   git clone git@github.com:<youraccount>/course-go-python-2026.git
+   cd course-go-python-2026
    ```
 4. Настройте свою IDE
     1. Goland:
