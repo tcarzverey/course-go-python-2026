@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package github.com.myacc.random;
+
+option go_package = "github.com/myacc/random/_;mypackage";
+
+import "messages.proto";
+
+service RandomService {
+  rpc Generate (GenerateRequest) returns (GenerateResponse) {}
+  rpc GenerateInt (GenerateIntRequest) returns (GenerateIntResponse) {}
+  rpc GenerateBatch (GenerateBatchRequest) returns (GenerateBatchResponse) {}
+  rpc GetUser(GetUserRequest) returns (User) {}
+}
+
+message GetUserRequest{
+  int64 id = 1;
+}
+
+message GenerateRequest {
+  double range = 1;
+}
+
+message GenerateResponse {
+  double value = 1;
+}
+
+message GenerateIntRequest {
+  uint64 from = 1;
+  uint64 to = 2;
+}
+
+message GenerateIntResponse {
+  uint64 value = 1;
+}
+
+message GenerateBatchRequest {
+  double range = 1;
+}
+
+message GenerateBatchResponse {
+  repeated double values = 1;
+}

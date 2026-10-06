@@ -1,0 +1,18 @@
+edition = "2023";
+
+package github.com.myacc.random;
+
+option go_package = "github.com/myacc/random/_;mypackage";
+
+message User {
+  string name = 1;
+  repeated Contact contacts = 2;
+  map<string, Contact> mapped_contacts = 3;
+  bool is_active = 4;
+}
+
+message Contact {
+  string email = 1;
+  string phone = 2;
+}
+
