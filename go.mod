@@ -1,6 +1,6 @@
 module github.com/tcarzverey/course-go-python
 
-go 1.25.1
+go 1.27
 
 require (
 	github.com/gorilla/websocket v1.5.3
