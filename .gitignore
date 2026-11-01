@@ -29,3 +29,6 @@ go.work.sum
 
 # remove all *_solution files
 *_solution.go
+
+# AI
+.codegraph/
