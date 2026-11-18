@@ -16,7 +16,7 @@
 
 ### Занятие 3: Concurrency pt.2
 Темы: Concurrency: горутины, каналы, примитивы синхронизации, go concurrency patterns
-* [Презентация](https://docs.google.com/presentation/d/1zHGNgJ9WQkwEEJzfV_rZALiYGjJGNm1BYIBxyNGpozQ/edit?usp=drive_link)
+* [Презентация](https://docs.google.com/presentation/d/10xyCEhAecSyOO2GE_-aifYuvVzgD9AYwETvKawJIojA/edit?usp=drive_link)
 * [Полезные материалы](./materials/lecture2-3.md)
 * [Домашнее задание](./homeworks/hw1/README.md)
 
